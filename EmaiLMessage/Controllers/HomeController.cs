@@ -48,6 +48,16 @@ namespace EmaiLMessage.Controllers
             return View();
         }
 
+        public IActionResult AddDept()
+        {
+            return View();
+        }
+
+        public IActionResult AddNew()
+        {
+            return View();
+        }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
